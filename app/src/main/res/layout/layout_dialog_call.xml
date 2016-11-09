@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/message_box"
+    android:gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/layoutCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/btnCall1"
+            android:src="@drawable/cutrongxoay"/>
+        <ImageView
+            android:id="@+id/btnCall2"
+            android:layout_marginLeft="64dp"
+            android:src="@drawable/anhxtanh"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp">
+        <ImageView
+            android:id="@+id/btnCall3"
+            android:src="@drawable/khongminh"/>
+        <ImageView
+            android:id="@+id/btnCall4"
+            android:layout_marginLeft="64dp"
+            android:src="@drawable/ngobaochau"/>
+    </TableRow>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtGoiY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đáp án gợi ý là :"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_button"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="Ok"
+        android:textColor="@android:color/white" />
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/atp__activity_home_background"
+    android:orientation="vertical"
+    tools:context=".activity.StartActivity">
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/atp__icon_logo_in_app" />
+
+    <TextView
+        android:id="@+id/btnPlay"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/atp__activity_player_layout_play_answer_background_normal"
+        android:gravity="center"
+        android:text="Bắt Đầu"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/btnRate"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/atp__activity_player_layout_play_answer_background_normal"
+        android:gravity="center"
+        android:text="Đánh Giá"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/btnShare"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/atp__activity_player_layout_play_answer_background_normal"
+        android:gravity="center"
+        android:text="Chia Sẻ Game"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/btnSound"
+            android:layout_width="56dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:src="@drawable/sound_on" />
+
+        <ImageView
+            android:id="@+id/btnSetting"
+            android:layout_width="56dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:src="@drawable/setting" />
+
+        <ImageView
+            android:id="@+id/btnExit"
+            android:layout_width="56dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:src="@drawable/exit" />
+    </TableRow>
+</LinearLayout>

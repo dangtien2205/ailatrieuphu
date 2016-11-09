@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    android:fillAfter="true">
+    <alpha
+        android:background="@drawable/money_3"
+        android:startOffset="3000"
+        android:duration="3000"
+        android:fromAlpha="1.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:toAlpha="1.0"/>
+    <alpha
+        android:background="@drawable/money_2"
+        android:duration="3000"
+        android:fromAlpha="1.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:toAlpha="1.0"/>
+</set>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/atp__activity_player_button_image_help_change_question_active">
+        <shape android:shape="oval">
+            <corners android:radius="32dp"/>
+            <solid android:color="#9c27b0"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/atp__activity_player_button_image_help_change_question">
+        <shape android:shape="oval">
+            <corners android:radius="32dp"/>
+            <solid android:color="#2196f3"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/message_box"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Bạn có muốn dừng cuộc chơi ?"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/btnYesStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Đồng ý"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button" />
+        <TextView
+            android:id="@+id/btnNoStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:gravity="center"
+            android:text="Không"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button" />
+    </TableRow>
+</LinearLayout>
